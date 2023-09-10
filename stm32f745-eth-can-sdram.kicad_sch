@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2fe210a3-bd39-4a0d-882e-a71d33b1f0de)
+
+  (paper "A3" portrait)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 107.95 168.91) (size 24.13 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 36a88d0a-654b-478a-adb0-3744b540e62b)
+    (property "Sheetname" "ethernet" (at 107.95 168.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ethernet.kicad_sch" (at 107.95 199.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f745-eth-can-sdram"
+        (path "/2fe210a3-bd39-4a0d-882e-a71d33b1f0de" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 36.83 121.92) (size 27.94 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4e4d7780-6fb5-4a29-9d61-bcff1bad1111)
+    (property "Sheetname" "POE" (at 36.83 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "poe.kicad_sch" (at 36.83 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f745-eth-can-sdram"
+        (path "/2fe210a3-bd39-4a0d-882e-a71d33b1f0de" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 106.68 227.33) (size 26.67 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6d2ec507-6229-4b8e-90ca-829229a57347)
+    (property "Sheetname" "Zigbee" (at 106.68 226.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cc2652rb.kicad_sch" (at 106.68 254.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f745-eth-can-sdram"
+        (path "/2fe210a3-bd39-4a0d-882e-a71d33b1f0de" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 36.83 218.44) (size 30.48 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a030d0a4-1cae-4f96-9c1d-614a6ad08ed2)
+    (property "Sheetname" "can.interfaces" (at 36.83 217.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "can.interfaces.kicad_sch" (at 36.83 257.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f745-eth-can-sdram"
+        (path "/2fe210a3-bd39-4a0d-882e-a71d33b1f0de" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 36.83 166.37) (size 29.21 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid de56a957-0bc9-4cd6-8468-0ebf77ec0206)
+    (property "Sheetname" "stm32f467" (at 36.83 165.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stm32f746.kicad_sch" (at 36.83 199.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f745-eth-can-sdram"
+        (path "/2fe210a3-bd39-4a0d-882e-a71d33b1f0de" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
