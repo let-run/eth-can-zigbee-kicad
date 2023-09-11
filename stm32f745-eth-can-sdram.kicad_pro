@@ -491,6 +491,10 @@
     [
       "6d2ec507-6229-4b8e-90ca-829229a57347",
       "Zigbee"
+    ],
+    [
+      "80d449eb-feec-4ade-90f5-87d10f6fc0dc",
+      "SDRAM"
     ]
   ],
   "text_variables": {}
