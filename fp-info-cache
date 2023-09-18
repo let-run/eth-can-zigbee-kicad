@@ -1,4 +1,4 @@
-22214862770836123
+22216557831764156
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81696,6 +81696,13 @@ antenna rf
 0
 3
 2
+RF_Antenna
+SMA_RF_SMD
+SMD antenna 2400-2500Mhz, 3.7dBi, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/479/47948/PS-47948-001-001.pdf?inline
+rf antenna
+0
+3
+3
 RF_Antenna
 Texas_SWRA117D_2.4GHz_Left
 http://www.ti.com/lit/an/swra117d/swra117d.pdf
